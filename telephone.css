@@ -1,0 +1,13 @@
+#left, #right {
+    width: 30%;
+    padding: 1rem;
+}
+
+section {
+    overflow: auto;
+
+}
+
+img {
+	width: 500px;
+}
