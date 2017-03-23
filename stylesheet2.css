@@ -27,8 +27,16 @@ div.fixed {
     width: 120px;
 }
 
+div.fixed2 {
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    width: 120px;
+    color: white;
+}
+
 .title {
-    height: 1500px;
+    height: 1800px;
     width: 150px;
     float: left;
     margin-left: 10px;
@@ -50,10 +58,57 @@ div.fixed {
 #grad2 {
     position: relative;
     margin-left: 700px;
+    margin-bottom: 200px;
 }
 
 #grad3 {
     float: right;
+    padding-top:300px;
+    padding-left:100px;
+}
+
+#grad4 {
+    margin-left:300px;
+    padding-bottom:200px;
+    padding-top:100px;
+}
+
+#grad5 {
+    float: left;
+}
+
+#grad6 {
+    position:relative;
+    padding-left:350px;
+    margin-top: 150px;
+}
+
+#grad7 {
+    position: relative;
+    float: right;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+}
+
+#grad8 {
+    position: absolute;
+    float: left;
+    padding-bottom:20px;
+    padding-top:50px;
+}
+
+#grad9 {
+    position: relative;
+    float: right;
+    padding-right: 200px;
+    padding-top:150px;
+}
+
+#grad10 {
+    float:right;
+    position: relative;
+    padding-bottom: 200px;
 }
 
 /* Dropdown Button */
@@ -84,7 +139,6 @@ div.fixed {
     background-color: transparent;
     min-width: 130px;
     max-height: 200px;
-    z-index: 1;
 }
 
 /* Links inside the dropdown */
@@ -106,6 +160,10 @@ div.fixed {
 }
 
 
+#main {
+    margin-right:0.5em;
+    margin-top: 0.5em;
+}
 
 
 
