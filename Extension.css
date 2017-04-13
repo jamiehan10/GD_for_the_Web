@@ -1,0 +1,25 @@
+#circle {
+	width: 200px;
+	height: 200px;
+	background: red;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	font-family: "Courier";
+	text-align: center;
+	margin: auto;
+
+}
+
+a {
+	text-decoration: none;
+	font-color: white;
+}
+
+a:hover {
+	color:red;
+}
+
+body {
+	margin:100px;
+}
