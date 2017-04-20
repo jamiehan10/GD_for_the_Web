@@ -18,7 +18,7 @@ $('body').click(function() {
 });
 
 //rotate Google's logo
-$('#hplogo'). addClass('skew');
+$('#hplogo'). addClass('rotate');
 
 
 

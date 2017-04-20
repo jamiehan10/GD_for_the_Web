@@ -8,5 +8,5 @@
 }
 
 .rotate {
-	transform: skew(30deg);
+	transform: rotate(180deg);
 }
