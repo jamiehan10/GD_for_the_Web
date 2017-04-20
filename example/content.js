@@ -17,9 +17,8 @@ $('body').click(function() {
 	$(this).addClass('gradient');
 });
 
-
 //rotate Google's logo
-$('#hplogo'). addClass('rotate');
+$('#hplogo'). addClass('skew');
 
 
 

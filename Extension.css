@@ -1,11 +1,12 @@
 #circle {
 	width: 200px;
 	height: 200px;
-	background: red;
+	background: #ffdb68;
 	-moz-border-radius: 100px;
 	-webkit-border-radius: 100px;
 	border-radius: 100px;
 	font-family: "Courier";
+	font-color: white;
 	text-align: center;
 	margin: auto;
 
