@@ -1,0 +1,147 @@
+<script type="text/javascript">
+var ie=document.all;
+var nn6=document.getElementById&&!document.all;
+var isdrag=false;
+var x,y;
+var dobj;
+function movemouse(e)
+  {
+    if (isdrag)
+    {
+      dobj.style.left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;
+      dobj.style.top  = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+      return false;
+    }
+  }
+
+function selectmouse(e)
+  {
+    var fobj       = nn6 ? e.target : event.srcElement;
+    var topelement = nn6 ? "HTML" : "BODY";
+    while (fobj.tagName != topelement && fobj.className != "dragme")
+      {
+        fobj = nn6 ? fobj.parentNode : fobj.parentElement;
+      }
+    if (fobj.className=="dragme")
+      {
+        isdrag = true;
+        dobj = fobj;
+        tx = parseInt(dobj.style.left+0,10);
+        ty = parseInt(dobj.style.top+0,10);
+        x = nn6 ? e.clientX : event.clientX;
+        y = nn6 ? e.clientY : event.clientY;
+        document.onmousemove=movemouse;
+        return false;
+      }
+  }
+
+document.onmousedown=selectmouse;
+document.onmouseup=new Function("isdrag=false");
+</script>
+
+<style type="text/css">
+        .dragme{position:absolute;}
+
+</style>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="consider.css"/>
+  <title> Design Manifesto </title>
+</head>
+
+<header style="font-family: BROWN; font-size: 18px; color: white">
+	<a href="consider_kr.html">KOR</a> | <strong>ENG</strong>
+</header>
+
+<body bgcolor="black">
+
+  <CENTER>
+  <h1 style="font-family: BROWN; font-size: 80px; color: white"  > 10 CONSIDERATIONS<br/> FOR DESIGNERS<br/> WHEN WORKING ON: </h1>
+  <h2 style="font-family: BROWN; font-size: 45px; color: #f44242"><span>Multicultural Project + Sociopolitial Engagement</span></h2>
+  </CENTER>
+
+  <div class="two"></div>
+
+<h3 style="font-family: BROWN; color: white" > Drag boxes out, to anywhere!</h3>
+<div class="one">
+    <p style="font-family: BROWN; font-size: 50px; color:white; text-align: center"> <br/><br/><br/>NOW <br/>GO DESIGN! </p>
+
+    <img src="http://i64.tinypic.com/157hsmr.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 10;" class="dragme"/></a>
+
+    <img src="http://i64.tinypic.com/10p6748.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 9;" class="dragme"/> 
+    </a>
+
+    <img src="http://i66.tinypic.com/14ohso.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 8;" class="dragme"/> 
+    </a>
+
+    <img src="http://i66.tinypic.com/300tw1j.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 7;" class="dragme"/> 
+    </a>
+
+    <img src="http://i68.tinypic.com/2lt37es.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 6;" class="dragme"/> 
+    </a>
+
+    <img src="http://i67.tinypic.com/16hu99z.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 5;" class="dragme"/> 
+    </a>
+
+    <img src="http://i63.tinypic.com/2u55roi.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 4;" class="dragme"/> 
+    </a>
+
+    <img src="http://i68.tinypic.com/24q25jm.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 3;" class="dragme"/> 
+    </a>
+
+    <img src="http://i66.tinypic.com/160o8lt.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 2;" class="dragme"/> 
+    </a>
+
+    <img src="http://i63.tinypic.com/1htici.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 1;" class="dragme"/> 
+    </a>
+</div>
+
+<div class="two"></div>
+
+</body>
+
+<style>
+/* Box styles */
+.myBox {
+border: none;
+padding: 5px;
+width: 200px;
+height: 200px;
+overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 20px;
+height: 20px;
+}
+
+::-webkit-scrollbar-track {
+background: black;
+}
+
+::-webkit-scrollbar-thumb {
+background: #44db39;  
+}
+
+::-webkit-scrollbar-corner {
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+}
+</style>
+
+<div class="fixed">
+		<button class="dropbtn"><h3><img src="http://www.iconsdb.com/icons/preview/white/download-2-xxl.png" width="20px"/></a></h3></button>
+		<div class="dropdown-content">
+		<h6><a href="https://drive.google.com/file/d/0B9c4G1KxmLyVZndLY2NCZXhnbUE/view?usp=sharing" target="_blank"><img src="http://i65.tinypic.com/30mtn48.png" width="80px"></a></h6>
+		</div>
+</div>
+
+<div class="fixed2">
+	<h3>DS4</h3>
+</div>
+
+</head>
+<body>
+
+

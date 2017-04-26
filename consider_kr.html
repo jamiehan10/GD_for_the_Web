@@ -1,0 +1,147 @@
+<script type="text/javascript">
+var ie=document.all;
+var nn6=document.getElementById&&!document.all;
+var isdrag=false;
+var x,y;
+var dobj;
+function movemouse(e)
+  {
+    if (isdrag)
+    {
+      dobj.style.left = nn6 ? tx + e.clientX - x : tx + event.clientX - x;
+      dobj.style.top  = nn6 ? ty + e.clientY - y : ty + event.clientY - y;
+      return false;
+    }
+  }
+
+function selectmouse(e)
+  {
+    var fobj       = nn6 ? e.target : event.srcElement;
+    var topelement = nn6 ? "HTML" : "BODY";
+    while (fobj.tagName != topelement && fobj.className != "dragme")
+      {
+        fobj = nn6 ? fobj.parentNode : fobj.parentElement;
+      }
+    if (fobj.className=="dragme")
+      {
+        isdrag = true;
+        dobj = fobj;
+        tx = parseInt(dobj.style.left+0,10);
+        ty = parseInt(dobj.style.top+0,10);
+        x = nn6 ? e.clientX : event.clientX;
+        y = nn6 ? e.clientY : event.clientY;
+        document.onmousemove=movemouse;
+        return false;
+      }
+  }
+
+document.onmousedown=selectmouse;
+document.onmouseup=new Function("isdrag=false");
+</script>
+
+<style type="text/css">
+        .dragme{position:absolute;}
+
+</style>
+
+<head>
+  <link type="text/css" rel="stylesheet" href="consider_kr.css"/>들
+  <meta charset="utf-8">
+  <title> 디자인 선언 </title>
+</head>
+
+<header style="font-size: 18px; color: white">
+	<strong>한글</strong> | <a href="consider.html">ENG</a> 
+</header>
+
+<body bgcolor="black">
+
+  <CENTER>
+  <h1 style="font-size: 80px; color: white"  > 디자이너가 <br/> 고려해야 할<br/> 10가지 생각들: </h1>
+  <h2 style="font-size: 45px; color: #f44242"><span>복수문화적 프로젝트 진행 + 정치사회적 참여에 대하여</span></h2>
+  </CENTER>
+
+<div class="two"></div>
+
+<h3 style="color: white" >상자 밖으로 드래그하세요!</h3>
+<div class="one">
+    <p style="font-size: 50px; color:white; text-align: center"> <br/><br/>이제<br/>디자인을<br/>시작하세요!</p>
+
+    <img src="http://i68.tinypic.com/2ldagcl.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 1;" class="dragme"/> 
+    </a>
+
+    <img src="http://i66.tinypic.com/2en6d1t.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 2;" class="dragme"/> 
+    </a>
+
+    <img src="http://i67.tinypic.com/262bbkk.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 3;" class="dragme"/> 
+    </a>
+
+    <img src="http://i67.tinypic.com/2z5llk7.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 4;" class="dragme"/> 
+    </a>
+
+    <img src="http://i68.tinypic.com/u4y8i.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 5;" class="dragme"/> 
+    </a>
+
+    <img src="http://i67.tinypic.com/1h6zxd.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 6;" class="dragme"/> 
+    </a>
+
+    <img src="http://i64.tinypic.com/14tondl.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 7;" class="dragme"/> 
+    </a>
+
+    <img src="http://i65.tinypic.com/15dnjv9.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 8;" class="dragme"/> 
+    </a>
+
+    <img src="http://i67.tinypic.com/r88j9k.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 9;" class="dragme"/> 
+    </a>
+
+    <img src="http://i63.tinypic.com/107tnpy.jpg" width="350" style="cursor:move; top: 920px; left: 540px; z-index: 10;" class="dragme"/> 
+    </a>
+</div>
+
+<div class="two"></div>
+
+</body>
+
+<style>
+/* Box styles */
+.myBox {
+border: none;
+padding: 5px;
+width: 200px;
+height: 200px;
+overflow: scroll;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 20px;
+height: 20px;
+}
+
+::-webkit-scrollbar-track {
+background: black;
+}
+
+::-webkit-scrollbar-thumb {
+background: #44db39;  
+}
+
+::-webkit-scrollbar-corner {
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+}
+</style>
+
+<div class="fixed">
+    <button class="dropbtn"><h3><img src="http://www.iconsdb.com/icons/preview/white/download-2-xxl.png" width="20px"/></h3></button>
+    <div class="dropdown-content">
+    <h6><a href="https://drive.google.com/file/d/0B9c4G1KxmLyVMHVwUGlUeVR2RWc/view?usp=sharing" target="_blank"><img src="http://i67.tinypic.com/ankb2p.png" width="80px"></a></h6>
+    </div>
+</div>
+
+<div class="fixed2">
+  <h3>DS4</h3>
+</div>
+
+</head>
+<body>
