@@ -44,3 +44,8 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.proposal {
+	float:right;
+	margin-right: 5%;
+}
