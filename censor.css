@@ -75,13 +75,18 @@ a:hover {
 
 .one {
 	width: 600px;
+	height: 600px;
 	background-color: black
 	margin: auto;
 	float:center;
 	border: 2px dotted black;
 }
 
-
 .spacing {
-	height: 100px;
+	height: 60px;
 }
+
+span {
+	background-color: yellow;
+}
+
