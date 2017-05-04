@@ -1,0 +1,86 @@
+h1 {
+	margin-bottom: :10%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 3%;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+
+body {
+    margin: 0;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.title:hover {
+    background: #00ff00;
+}
+
+.content {
+    padding: 20px;
+    display: none;
+    border-bottom: 1px dotted black;
+}
+
+.week {
+	width: 600px;
+	height: 600px;
+	float:center;
+	margin:auto;
+}
+
+.home {
+	transform: rotate(-90deg);
+	float:right;
+	position: fixed;
+	top:45%;
+	font-family:"apercu";
+	margin-left: 10px;
+}
+
+.yr {
+	transform: rotate(90deg);
+	right:0;
+	position: fixed;
+	top:45%;
+	font-family:"apercu";
+	margin-right: 20px;
+}
+
+.bottom {
+	position:fixed;
+	bottom: 0;
+	right:46%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: white;
+	background-color: #00ff00;
+}
+
+.one {
+	width: 600px;
+	height: 600px;
+	background-color: black
+	margin: auto;
+	float:center;
+	border: 2px dotted black;
+}
+
+
+.spacing {
+	height: 100px;
+}
