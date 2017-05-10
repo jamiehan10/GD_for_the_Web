@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'apercuregular';
+    src: url('/font/apercu_regular-webfont.woff') format('woff');
+}
+
 h1 {
 	margin-bottom: :10%;
 	margin-left: 2%;
@@ -8,7 +13,7 @@ h1 {
 body {
 	background-color: #fafafa;
     margin: 0;
-    font-family: 'apercuregular' , Helvetica , sans-serif; ;
+    font-family: 'apercuregular' ;
 }
 
 .title {
