@@ -1,8 +1,10 @@
 @font-face {
-  font-family: 'Brown-RegularAlt';
-  src: url('Brown-RegularAlt.eot') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'brownregular';
+    src: url('fonts2/brown-regular-webfont.woff2') format('woff2'),
+         url('fonts2/brown-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .one {
