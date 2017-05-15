@@ -1,0 +1,108 @@
+body {
+	background-color: black;
+    margin: 0;
+    font-family: 'brown' , Helvetica , sans-serif; ;
+}
+
+h1 {
+	color:white;
+	margin-top:50px;
+	margin-bottom: 30px;
+  margin-left:100px;
+  margin-right:10px;
+}
+
+.mainmenu {
+	color: white;
+	margin: 5%;
+	width: 80%;
+}
+
+.leftmenu {
+  position: fixed;
+  padding-left: 100px;
+  width: 150px;
+  color:white;
+  font-size: 18px;
+}
+
+.submenu {
+	color: white;
+  line-height: 140%;
+}
+
+.title {
+    padding: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #0061ff;
+}
+
+.title:hover {
+    background-image: url("http://cfile6.uf.tistory.com/image/2612FA41520AE20A08CD91");
+}
+
+.content {
+    padding: 20px;
+    display: none;
+    background-color: white;
+    border-top: 10px solid #0061ff;
+    border-bottom: 10px solid #0061ff;
+    line-height: 130%;
+}
+
+.week {
+	width: 500px;
+	margin:auto;
+}
+
+p {
+  text-align: left;
+  color: black;
+}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.main {
+  width:500px;
+  height: 500px;
+  overflow: auto;
+  border:10px solid #0061ff;
+}
+
+span {
+  color: #0061ff;
+  text-align: left;
+}
+
+span:hover{
+  text-decoration: none;
+}
+
+
+pre {
+  padding: 20px;
+  background: #f2f2f2;
+  margin: 10px 0px;
+}
+
+div.fixed2 {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    width: 70px;
+    color: #44db39;
+}
+
+.space {
+  width:100%;
+  height:10%;
+}

@@ -20,8 +20,16 @@ html, body, h1, h2, h3, h4, h5, h6, li, p {font-family:'Nanum Gothic';}
 
 h1 {
 	margin-top: 80px;
+	line-height: 130%;
 }
 
+span {
+	color:#f44242;
+}
+
+span:hover {
+	color: white;
+}
 
 h2 {
 	margin-top: 20px;
@@ -32,14 +40,11 @@ h3 {
 	text-align:center;
 }
 
-span:hover {
-	color: white;
-	background-color: #0061ff;
-}
 
 header {
 	text-align: right;
 	padding-right: 10px;
+	padding-top:10px;
 }
 
 a {
@@ -54,9 +59,10 @@ a:hover {
 
 div.fixed {
     position: fixed;
-    bottom: 5px;
+    bottom: 20px;
     left: 20px;
-    width: 30px;
+    width: 70px;
+    color: #44db39;
 }
 
 div.fixed2 {
@@ -76,7 +82,6 @@ div.fixed2 {
     display: none;
     min-width: 100px;
 }
-
 
 .fixed:hover .dropdown-content {
     display: block;
