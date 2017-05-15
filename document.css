@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+    margin: 0;
+    font-family: 'brown' , Helvetica , sans-serif; ;
+}
+
+.topleft {
+    float:left;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 10px;
+    position: fixed;
+}
+
+.main {
+    width: 60%;
+    float:right;
+    margin-right:100px;
+    margin-top: 65px;
+    color:white;
+    line-height: 145%;
+    font-size:14px;
+}
+
+.maintitle {
+  font-size:50px;
+}
+
+p {
+  width:500px;
+  padding:5px;
+}
+
+div.fixed2 {
+    position: fixed;
+    bottom: 10px;
+    right:0;
+    width:50px;
+    color: #44db39;
+}
+
+a {
+  text-decoration: none;
+  color: #44db39;
+}
+
+
+span {
+  color:#44db39;
+  font-size: 20px;
+}
