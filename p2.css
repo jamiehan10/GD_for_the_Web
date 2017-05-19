@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'brownregular';
+    src: url('fonts2/brown-regular-webfont.woff2') format('woff2'),
+         url('fonts2/brown-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1 {
 	margin-bottom:10%;
 }
@@ -13,7 +21,7 @@ h1 {
 	float: right;
 	border: none;
 	padding: 5px;
-	font: 24px/36px BROWN;
+	font: 24px/36px 'brownregular';
 	width:48%;
 	height:500px;
 	overflow: scroll;
@@ -38,7 +46,7 @@ h1 {
 	width:48%;
 	overflow: auto;
 	float:left;
-	font-family: sans-serif;
+	font-family: 'brownregular';
 }
 
 .six {
@@ -57,7 +65,7 @@ h1 {
 .subtitle {
 	width:48%;
 	overflow:auto;
-	font-family: BROWN;
+	font-family: 'brownregular';
 	padding-top: 10px;
 	font-size:14px;
 	float: left;
@@ -66,7 +74,7 @@ h1 {
 .subtitle2 {
 	width:48%;
 	overflow:auto;
-	font-family: BROWN;
+	font-family: 'brownregular';
 	padding-top: 10px;
 	font-size:14px;
 	float:right;
@@ -144,7 +152,7 @@ div.dropdown {
 .dropdown-content h6 {
     color: white;
     padding: 5px;
-    font-family: BROWN;
+    font-family: 'brownregular';
     text-decoration: none;
     display: block;
 }
