@@ -26,6 +26,13 @@ h1 {
   font-size: 18px;
 }
 
+.rightarrow {
+  position: fixed;
+  overflow: auto;
+  width:40%;
+  margin-left:57%;
+}
+
 .submenu {
 	color: white;
   line-height: 140%;
@@ -52,7 +59,7 @@ h1 {
 }
 
 .week {
-	width: 500px;
+	width: 700px;
 	margin:auto;
 }
 
@@ -72,7 +79,7 @@ a {
 }
 
 .main {
-  width:500px;
+  width:700px;
   height: 500px;
   overflow: auto;
   border:10px solid #0061ff;
